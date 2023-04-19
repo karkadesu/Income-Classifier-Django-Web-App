@@ -42,3 +42,4 @@ class MLTests(TestCase):
                     algorithm_status, algorithm_version, algorithm_owner,
                     algorithm_description, algorithm_code)
         self.assertEqual(len(registry.endpoints), 1)
+
